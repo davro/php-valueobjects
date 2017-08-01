@@ -1,0 +1,26 @@
+{
+    "name": "davro/php-valueobjects",
+    "description": "A PHP library/collection of classes use for creating immutable objects.",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "David Stevens",
+            "email": "mail.davro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {"ValueObjects\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": { "ValueObjects\\Tests\\": "tests/" }
+    }
+}
