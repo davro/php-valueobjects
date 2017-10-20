@@ -1,6 +1,6 @@
 {
     "name": "davro/php-valueobjects",
-    "description": "A PHP library/collection of classes, used for creating immutable objects.",
+    "description": "A PHP library/collection of classes use for creating immutable objects.",
     "license": "LGPL",
     "authors": [
         {
